@@ -159,7 +159,6 @@ h4 {
   transform: translateY(-5px);
 }
 
-/* offer*/
 .offer {
   background: radial-gradient(#fff, #ffd6d6);
   margin-top: 80px;
@@ -173,8 +172,6 @@ h4 {
 small {
   color: #555;
 }
-
-/*---testimonial----*/
 
 .testimonial {
   padding-top: 100px;
@@ -234,8 +231,6 @@ small {
 .col-5 img:hover {
   filter: grayscale(0);
 }
-
-/* footer */
 
 .footer {
   background: #000;
@@ -308,8 +303,6 @@ ul {
   display: none;
 }
 
-/* all products */
-
 .row-2 {
   justify-content: space-between;
   margin: 100px auto 50px;
@@ -343,8 +336,6 @@ select:focus {
   background: #ff523b;
   color: white;
 }
-
-/* single product */
 
 .single-product {
   margin-top: 80px;
@@ -387,6 +378,87 @@ input:focus {
   color: #ff523b;
   margin-left: 10px;
 }
+
+.account-page {
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.form-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 2px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+.form-btn {
+  display: inline-block;
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+#LoginForm {
+  left: -300px;
+}
+
+#RegForm {
+  left: 0;
+}
+
+form a {
+  font-size: 12px;
+}
+
+#Indicator {
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
+
+/* media screens */
 
 @media only screen and (max-width: 800px) {
   nav ul {
