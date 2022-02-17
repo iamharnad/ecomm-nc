@@ -159,7 +159,6 @@ h4 {
   transform: translateY(-5px);
 }
 
-/* offer*/
 .offer {
   background: radial-gradient(#fff, #ffd6d6);
   margin-top: 80px;
@@ -173,8 +172,6 @@ h4 {
 small {
   color: #555;
 }
-
-/*---testimonial----*/
 
 .testimonial {
   padding-top: 100px;
@@ -234,8 +231,6 @@ small {
 .col-5 img:hover {
   filter: grayscale(0);
 }
-
-/* footer */
 
 .footer {
   background: #000;
@@ -308,8 +303,6 @@ ul {
   display: none;
 }
 
-/* all products */
-
 .row-2 {
   justify-content: space-between;
   margin: 100px auto 50px;
@@ -343,8 +336,6 @@ select:focus {
   background: #ff523b;
   color: white;
 }
-
-/* single product */
 
 .single-product {
   margin-top: 80px;
@@ -387,8 +378,6 @@ input:focus {
   color: #ff523b;
   margin-left: 10px;
 }
-
-/* account */
 
 .account-page {
   padding: 50px 0;
